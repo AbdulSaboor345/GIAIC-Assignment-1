@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-image: url("bg_image.png");
+}
+
+.not-found-img{
+  background-image: url("error.avif");
+  background-color: aliceblue;
+  background-size: 100% 100%;
+  margin-top: 52px;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin-bottom: 100px;
+}
